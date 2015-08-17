@@ -1,0 +1,30 @@
+body {
+	background-color: #000;
+	font-family: 'Raleway', sans-serif;
+	color: #f2f2f2;
+}
+
+.gameBoard ul{
+	margin: 0;
+}
+
+.gameBoard ul li {
+	display: inline-block;
+	background-color: #02B502;
+	height: 200px;
+	width: 200px;
+	position: relative;
+}
+
+#topMid, #midLeft, #midRight, #botMid {
+	background-color: green;
+}
+
+.gameBoard h1 {
+	font-size: 150px;
+	position: absolute;
+	left: 50%;
+	margin-left: -55px;
+	top: -90px;
+}
+
