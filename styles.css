@@ -1,4 +1,4 @@
-body {
+/*body {
 	background-color: #000;
 	font-family: 'Raleway', sans-serif;
 	color: #f2f2f2;
@@ -26,5 +26,38 @@ body {
 	left: 50%;
 	margin-left: -55px;
 	top: -90px;
+}*/
+
+body {
+	background-color: #000;
+	font-family: 'Raleway', sans-serif;
+	color: #f2f2f2;
 }
+
+span {
+	display: block;
+}
+
+.ticTacToeBoard .square {
+	display: inline-block;
+	margin: 13px;
+	height: 200px;
+	width: 200px;
+	position: relative;
+	background-color: green;
+	vertical-align: top;
+	border: 2px solid white;
+	border-radius: 20px;
+}
+
+h1 {
+	font-size: 150px;
+	position: absolute;
+	left: 50%;
+	margin-left: -55px;
+	top: -90px;
+}
+
+
+
 
