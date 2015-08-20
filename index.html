@@ -5,45 +5,46 @@
 	<meta charset="utf-8">
 	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
+	<div class="gameBoard">
+		<ul class="row">
+			<li id="topLeft">
+				<h1 class="box" id="1"></h1>
+			</li>
+			<li id="topMid">
+				<h1 class="box" id="2"></h1>
+			</li>
+			<li id="topRight">
+				<h1 class="box" id="3"></h1>
+			</li>
+		</ul>
 
-	<div class="ticTacToeBoard">
-		<span>
-			<div class="square">
-				<h1 class="piece" id="1"></h1>
-			</div>
-			<div class="square">
-				<h1 class="piece" id="2"> </h1>
-			</div>
-			<div class="square">
-				<h1 class="piece" id="3"> </h1>
-			</div>
-		</span>
-		
-		<span>
-			<div class="square">
-				<h1 class="piece" id="4"> </h1>
-			</div>
-			<div class="square">
-				<h1 class="piece" id="5"> </h1>
-			</div>
-			<div class="square">
-				<h1 class="piece" id="6"> </h1>
-			</div>
-		</span>
+		<ul class="row">
+			<li id="midLeft">
+				<h1 class="box" id="4"></h1>
+			</li>
+			<li id="midMid">
+				<h1 class="box" id="5"></h1>
+			</li>
+			<li id="midRight">
+				<h1 class="box" id="6"></h1>
+			</li>
+		</ul>
 
-		<span>
-			<div class="square">
-				<h1 class="piece" id="7"> </h1>
-			</div>
-			<div class="square">
-				<h1 class="piece" id="8"> </h1>
-			</div>
-			<div class="square">
-				<h1 class="piece" id="9"> </h1>
-			</div>
-		</span>
+		<ul class="row">
+			<li id="botLeft">
+				<h1 class="box" id="7"></h1>
+			</li>
+			<li id="botMid">
+				<h1 class="box" id="8"></h1>
+			</li>
+			<li id="botRight">
+				<h1 class="box" id="9"></h1>
+			</li>
+		</ul>
+		<button class="reset">reset</button>
 	</div>
 
 
